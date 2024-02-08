@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala:69:37: not enough arguments for method modifyMazeAtRandom: (maze: Array[Array[Int]], excludeX: Int, excludeY: Int, steps: Int)Unit.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter steps.[0m
+[0m[[0m[31merror[0m] [0m[0m        MazeUtils.modifyMazeAtRandom(maze, playerPosition._1, playerPosition._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

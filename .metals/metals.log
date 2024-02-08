@@ -1,0 +1,687 @@
+2024.02.07 09:53:52 INFO  Started: Metals version 1.2.0 in folders '/Users/chajjar/Documents/scala_game' for client Visual Studio Code 1.84.2.
+2024.02.07 09:53:53 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2024.02.07 09:54:15 INFO  no build target found for /Users/chajjar/Documents/scala_game/src/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.07 09:54:16 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/Main.scala
+2024.02.07 09:54:19 INFO  Found Java version 11. Scala CLI requires at least Java 17, getting a temurin:17 JVM via coursier-jvm.
+2024.02.07 09:56:18 INFO  Running List(/Users/chajjar/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_mac_hotspot_17_35.tar.gz/jdk-17+35/Contents/Home/bin/java, -cp, /Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/cli_3/1.1.0/cli_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app_3/2.1.0-M26/case-app_3-2.1.0-M26.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-launcher_2.13/2.1.8/coursier-launcher_2.13-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-proxy-setup/2.1.8/coursier-proxy-setup-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/publish/publish_2.13/0.1.6/publish_2.13-0.1.6.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/jimfs/jimfs/1.3.0/jimfs-1.3.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/jniutils/windows-jni-utils/0.3.3/windows-jni-utils-0.3.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_3/2.13.5.2/jsoniter-scala-core_3-2.13.5.2.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/libsodiumjni/0.0.3/libsodiumjni-0.0.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_3/0.12.0/metaconfig-typesafe-config_3-0.12.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ai/kien/python-native-libs_3/0.2.4/python-native-libs_3-0.2.4.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-packager_2.13/0.1.29/scala-packager_2.13-0.1.29.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/cli_3/0.2.3/cli_3-0.2.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.9/slf4j-nop-2.0.9.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_2.13/3.9.1/core_2.13-3.9.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-module_3/1.1.0/build-module_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/config_3/1.1.0/config_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala3-graal_3/1.1.0/scala3-graal_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/specification-level_3/1.1.0/specification-level_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-annotations_3/2.1.0-M26/case-app-annotations_3-2.1.0-M26.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/case-app-util_3/2.1.0-M26/case-app-util_3-2.1.0-M26.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.3.1/sourcecode_3-0.3.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/tmp/zip-input-stream/0.1.1/zip-input-stream-0.1.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.13/2.1.8/coursier-cache_2.13-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-core_2.13/2.1.8/coursier-core_2.13-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_3/0.12.0/metaconfig-core_3-0.12.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.11.0/scala-collection-compat_3-2.11.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-core/0.22.0/jib-core-0.22.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk18on/1.76/bcpg-jdk18on-1.76.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli-signing/shared_3/0.2.3/shared_3-0.2.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.13/1.6.0/core_2.13-1.6.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.13/1.3.16/core_2.13-1.3.16.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.13/1.3.16/ws_2.13-1.3.16.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/java-class-name/java-class-name_3/0.1.3/java-class-name_3-0.1.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.14/trees_2.13-4.8.14.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/test-runner_3/0.4.16/test-runner_3-0.4.16.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.9.2/os-lib_3-0.9.2.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.8.1/pprint_3-0.8.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.13/1.4.0/scalajs-env-nodejs_2.13-1.4.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.13/1.14.0/scalajs-sbt-test-adapter_2.13-1.14.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/zip-input-stream/zip-input-stream/0.1.2/zip-input-stream-0.1.2.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/options_3/1.1.0/options_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/directives_3/1.1.0/directives_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/scala-cli-bsp/1.1.0/scala-cli-bsp-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/test-runner_3/1.1.0/test-runner_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/tasty-lib_3/1.1.0/tasty-lib_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.0/plexus-archiver-4.9.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/2.1.1/plexus-container-default-2.1.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/windows-ansi/windows-ansi/0.0.5/windows-ansi-0.0.5.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-util_2.13/2.1.8/coursier-util_2.13-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/concurrent-reference-hash-map/1.1.0/concurrent-reference-hash-map-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/2.2.0/scala-xml_2.13-2.2.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_3/0.12.0/metaconfig-pprint_3-0.12.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_3/0.4.3/paiges-core_3-0.4.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/cloud/tools/jib-build-plan/0.4.0/jib-build-plan-0.4.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.34.0/google-http-client-1.34.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.34.0/google-http-client-apache-v2-1.34.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-oauth2-http/0.18.0/google-auth-library-oauth2-http-0.18.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.3/jackson-datatype-jsr310-2.13.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.1/scala3-compiler_3-3.3.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.14/common_2.13-4.8.14.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/tools_3/0.4.16/tools_3-0.4.16.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_3/1.0.0/geny_3-1.0.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.4.0/fansi_3-0.4.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.13/1.4.0/scalajs-js-envs_2.13-1.4.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.5.5/bloop-config_2.13-1.5.5.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/core_3/1.1.0/core_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/using_directives/1.1.0/using_directives-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/virtuslab/scala-cli/build-macros_3/1.1.0/build-macros_3-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bsp4j/2.1.0-M7/bsp4j-2.1.0-M7.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/3.4.1/plexus-io-3.4.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-10/zstd-jni-1.5.5-10.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.7/xbean-reflect-3.7.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-api/0.24.0/opencensus-api-0.24.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/opencensus/opencensus-contrib-http-util/0.24.0/opencensus-contrib-http-util-0.24.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auto/value/auto-value-annotations/1.6.6/auto-value-annotations-1.6.6.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/auth/google-auth-library-credentials/0.18.0/google-auth-library-credentials-0.18.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.32.1/google-http-client-jackson2-1.32.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.1/scala3-interfaces-3.3.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.1/tasty-core_3-3.3.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.13/scalapb-runtime_2.13-0.11.13.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nir_3/0.4.16/nir_3-0.4.16.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-native/util_3/0.4.16/util_3-0.4.16.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_3/1.0.3/scala-parallel-collections_3-1.0.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-logging_2.13/1.1.1/scalajs-logging_2.13-1.1.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-rifle_2.13/1.5.11-sc-3/bloop-rifle_2.13-1.5.11-sc-3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.8/coursier-jvm_2.13-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/dependency_3/0.2.3/dependency_3-0.2.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/6.7.0.202309050840-r/org.eclipse.jgit-6.7.0.202309050840-r.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-jsdom-nodejs_2.13/1.1.0/scalajs-env-jsdom-nodejs_2.13-1.1.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.generator/0.20.1/org.eclipse.lsp4j.generator-0.20.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.20.1/org.eclipse.lsp4j.jsonrpc-0.20.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.22.1/grpc-context-1.22.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.13/lenses_2.13-0.11.13.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.13/0.0.11/libdaemon_2.13-0.0.11.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/github/alexarchambault/scala-cli/snailgun/snailgun-core_2.13/0.4.1-sc2/snailgun-core_2.13-0.4.1-sc2.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/argonaut-shapeless_6.3_2.13/1.3.1/argonaut-shapeless_6.3_2.13-1.3.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.13/2.1.8/coursier_2.13-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-env_2.13/2.1.8/coursier-env_2.13-2.1.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.2.3/JavaEWAH-1.2.3.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib/2.28.0/org.eclipse.xtend.lib-2.28.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.8/argonaut_2.13-6.3.8.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.9/shapeless_2.13-2.3.9.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.28.0/org.eclipse.xtext.xbase.lib-2.28.0.jar:/Users/chajjar/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.28.0/org.eclipse.xtend.lib.macro-2.28.0.jar, scala.cli.ScalaCli, bsp, /Users/chajjar/Documents/scala_game)
+2024.02.07 09:56:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/chajjar/Documents/scala_game/.metals/bsp.trace.json or /Users/chajjar/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.07 09:56:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.11-sc-3/bloop-frontend_2.12-1.5.11-sc-3.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.11-sc-3/bloop-frontend_2.12-1.5.11-sc-3.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.11-sc-3/bloop-backend_2.12-1.5.11-sc-3.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.1.4/scala-debug-adapter_2.12-3.1.4.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.11-sc-3/bloop-backend_2.12-1.5.11-sc-3.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.1.4/scala-debug-adapter_2.12-3.1.4.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2024.02.07 09:56:23 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.3/test-agent-1.8.3.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+20/com-microsoft-java-debug-core-0.34.0+20.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+20/com-microsoft-java-debug-core-0.34.0+20.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.11-sc-3/bloop-shared_2.12-1.5.11-sc-3.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.3/test-agent-1.8.3.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.11-sc-3/bloop-shared_2.12-1.5.11-sc-3.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.1/util-logging_2.12-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.9.1/util-logging_2.12-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.6/slf4j-parent-2.0.6.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.6/slf4j-parent-2.0.6.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.1/collections_2.12-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.1/core-macros_2.12-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.1/util-interface-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.9.1/core-macros_2.12-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.1/util-interface-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.9.1/collections_2.12-1.9.1.pom
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.11-sc-3/bloop-frontend_2.12-1.5.11-sc-3.jar
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.11-sc-3/bloop-backend_2.12-1.5.11-sc-3.jar
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2024.02.07 09:56:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.1.4/scala-debug-adapter_2.12-3.1.4.jar
+2024.02.07 09:56:25 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar
+2024.02.07 09:56:25 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.11-sc-3/bloop-shared_2.12-1.5.11-sc-3.jar
+2024.02.07 09:56:25 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2024.02.07 09:56:25 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+20/com-microsoft-java-debug-core-0.34.0+20.jar
+2024.02.07 09:56:25 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.11-sc-3/bloop-shared_2.12-1.5.11-sc-3.jar
+2024.02.07 09:56:25 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+20/com-microsoft-java-debug-core-0.34.0+20.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.1.4/scala-debug-adapter_2.12-3.1.4.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.11-sc-3/bloop-backend_2.12-1.5.11-sc-3.jar
+2024.02.07 09:56:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2024.02.07 09:56:28 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.11-sc-3/bloop-frontend_2.12-1.5.11-sc-3.jar
+2024.02.07 09:56:34 INFO  Scala CLI: Still downloading:
+2024.02.07 09:56:34 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar (52,81 %, 5191942 / 9831992)
+2024.02.07 09:56:34 INFO  Scala CLI: https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar (51,71 %, 5287989 / 10225728)
+2024.02.07 09:56:34 INFO  Scala CLI: 
+2024.02.07 09:56:39 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2024.02.07 09:56:39 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2024.02.07 09:56:39 INFO  Scala CLI: Starting compilation server
+2024.02.07 09:56:42 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.02.07 09:56:42 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2024.02.07 09:56:42 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.02.07 09:56:44 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2024.02.07 09:56:44 INFO  Connected to Scala CLI server v1.1.0
+2024.02.07 09:56:44 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 09:56:47 INFO  time: indexed workspace in 3.01s
+2024.02.07 09:56:49 INFO  time: compiled scala_game_bd2c96d2de in 4.38s
+2024.02.07 09:57:21 INFO  Scala CLI started for /Users/chajjar/Documents/scala_game
+2024.02.07 09:57:21 WARN  Build server is not auto-connectable.
+2024.02.07 09:57:21 WARN  no build tool detected in workspace '/Users/chajjar/Documents/scala_game'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.02.07 09:57:22 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/Main.scala
+2024.02.07 09:57:22 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/Main.scala
+2024.02.07 09:57:25 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/Main.scala
+2024.02.07 09:57:25 INFO  Cancelling compilation on scala-cli server
+2024.02.07 09:57:26 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 09:57:25 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/Main.scala
+2024.02.07 09:57:26 INFO  time: compiled scala_game_bd2c96d2de in 0.18s
+2024.02.07 09:57:25 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/Main.scala
+2024.02.07 09:57:27 INFO  time: indexed workspace in 1.29s
+2024.02.07 09:57:29 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/Main.scala
+2024.02.07 09:57:53 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/scala/Main.scala
+2024.02.07 09:57:53 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/Main.scala
+2024.02.07 09:57:53 INFO  Cancelling compilation on scala-cli server
+2024.02.07 09:57:53 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 09:57:55 INFO  no build target found for /Users/chajjar/Documents/scala_game/src/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.07 09:57:55 INFO  time: compiled scala_game_bd2c96d2de in 2.23s
+2024.02.07 09:57:55 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/Main.scala
+2024.02.07 09:57:56 INFO  time: indexed workspace in 1.11s
+2024.02.07 09:57:56 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/Main.scala
+2024.02.07 09:58:28 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:28 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:28 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:28 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:28 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:53 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:53 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:54 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 09:58:53 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:01:17 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/Main.scala
+2024.02.07 10:03:17 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/map/Maze.scala
+2024.02.07 10:03:17 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/scala/map/Maze.scala
+2024.02.07 10:03:17 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/map/Maze.scala
+2024.02.07 10:03:18 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:03:18 INFO  time: compiled scala_game_bd2c96d2de in 0.22s
+2024.02.07 10:03:19 INFO  time: indexed workspace in 1.65s
+2024.02.07 10:03:21 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/map/Maze.scala
+2024.02.07 10:03:30 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/map/Maze.scala
+2024.02.07 10:03:31 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/map/Maze.scala
+2024.02.07 10:03:31 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/map/Maze.scala
+2024.02.07 10:03:45 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:03:45 INFO  time: compiled scala_game_bd2c96d2de in 0.29s
+2024.02.07 10:04:35 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:04:35 INFO  time: compiled scala_game_bd2c96d2de in 0.66s
+2024.02.07 10:07:07 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:07:07 INFO  time: compiled scala_game_bd2c96d2de in 0.41s
+2024.02.07 10:07:21 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:07:22 INFO  time: compiled scala_game_bd2c96d2de in 1.01s
+2024.02.07 10:08:11 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/scala/Main.scala
+2024.02.07 10:08:19 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:08:19 INFO  time: compiled scala_game_bd2c96d2de in 0.2s
+2024.02.07 10:08:38 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:08:38 INFO  time: compiled scala_game_bd2c96d2de in 0.14s
+2024.02.07 10:09:12 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:09:12 INFO  time: compiled scala_game_bd2c96d2de in 0.19s
+2024.02.07 10:09:55 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:09:55 INFO  time: compiled scala_game_bd2c96d2de in 0.2s
+2024.02.07 10:11:45 INFO  compiling scala_game_bd2c96d2de (2 scala sources)
+2024.02.07 10:11:45 INFO  time: compiled scala_game_bd2c96d2de in 0.25s
+2024.02.07 10:12:30 INFO  compiling scala_game_bd2c96d2de (2 scala sources)
+2024.02.07 10:12:30 INFO  time: compiled scala_game_bd2c96d2de in 0.27s
+2024.02.07 10:13:06 INFO  compiling scala_game_bd2c96d2de (2 scala sources)
+2024.02.07 10:13:06 INFO  time: compiled scala_game_bd2c96d2de in 0.64s
+févr. 07, 2024 10:16:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1186
+2024.02.07 10:16:03 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:16:04 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:16:05 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:16:05 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:16:05 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:16:06 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:19:31 WARN  no build target for: /Users/chajjar/Documents/scala_game/scala/map/Maze.scala
+2024.02.07 10:19:31 WARN  no build target for: /Users/chajjar/Documents/scala_game/scala/Main.scala
+2024.02.07 10:19:48 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:19:48 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:26:29 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:26:53 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:27:40 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:29:31 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:30:42 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:30:42 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:30:42 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:32:12 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:34:52 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:35:40 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:37:00 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:37:02 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/Main.scala
+2024.02.07 10:39:41 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:47 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:49 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:52 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:54 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:55 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:55 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:55 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:39:55 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:42:42 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:43:03 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/map/Maze.scala
+2024.02.07 10:46:42 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:49:24 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+2024.02.07 10:49:24 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+2024.02.07 10:49:24 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+2024.02.07 10:49:25 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.07 10:49:25 INFO  time: compiled scala_game_bd2c96d2de in 0.97s
+2024.02.07 10:49:26 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:49:27 INFO  time: indexed workspace in 2.28s
+2024.02.07 10:49:29 INFO  time: compiled scala_game_bd2c96d2de in 3.15s
+2024.02.07 10:49:29 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:49:29 INFO  time: compiled scala_game_bd2c96d2de in 2ms
+févr. 07, 2024 10:49:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1539
+2024.02.07 10:49:40 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:49:40 INFO  time: compiled scala_game_bd2c96d2de in 0.36s
+2024.02.07 10:50:12 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:51:18 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:51:18 INFO  time: compiled scala_game_bd2c96d2de in 0.44s
+févr. 07, 2024 10:51:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1615
+2024.02.07 10:51:26 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:51:28 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:51:29 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:51:30 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:51:30 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:51:30 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+févr. 07, 2024 10:52:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1639
+2024.02.07 10:54:34 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:54:34 INFO  time: compiled scala_game_bd2c96d2de in 0.48s
+févr. 07, 2024 10:54:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1668
+2024.02.07 10:54:39 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:54:42 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:54:42 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:54:42 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:54:42 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 10:59:07 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 10:59:07 INFO  time: compiled scala_game_bd2c96d2de in 0.55s
+2024.02.07 11:03:25 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:03:25 INFO  time: compiled scala_game_bd2c96d2de in 0.53s
+2024.02.07 11:07:04 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:12: error: unclosed string literal
+  )"
+   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:07:07 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:07:07 INFO  time: compiled scala_game_bd2c96d2de in 0.44s
+2024.02.07 11:09:30 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:09:30 INFO  time: compiled scala_game_bd2c96d2de in 0.42s
+2024.02.07 11:11:10 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:30: error: unclosed character literal
+      case '' => (x + 1, y)
+           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:11:19 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:32: error: unclosed character literal
+      case 'xx' => (x, y + 1)
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:11:41 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:32: error: unclosed character literal
+      case '' => (x, y + 1)
+           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:12:41 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:12:41 INFO  time: compiled scala_game_bd2c96d2de in 0.38s
+2024.02.07 11:13:13 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:13:13 INFO  time: compiled scala_game_bd2c96d2de in 0.35s
+2024.02.07 11:14:50 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: Non-zero integral values may not have a leading zero.
+    Array(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1,01, 1, 0, 1),
+                                                                                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:856)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:330)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:332)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:15:10 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:17: error: Non-zero integral values may not have a leading zero.
+    Array(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 01, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1),
+                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:856)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:330)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:332)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:15:57 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:15:57 INFO  time: compiled scala_game_bd2c96d2de in 0.34s
+2024.02.07 11:27:54 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:27:54 INFO  time: compiled scala_game_bd2c96d2de in 0.48s
+2024.02.07 11:28:29 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:28:29 INFO  time: compiled scala_game_bd2c96d2de in 0.38s
+Exception in thread "pool-12-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024.02.07 11:33:25 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:33:25 INFO  time: compiled scala_game_bd2c96d2de in 0.42s
+2024.02.07 11:34:08 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:59: error: unclosed string literal
+    println("Player Moves
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:34:08 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:59: error: unclosed string literal
+    println("Player Move
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:34:10 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:59: error: unclosed string literal
+    println("Player Mov
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.07 11:36:30 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:36:30 INFO  time: compiled scala_game_bd2c96d2de in 0.47s
+2024.02.07 11:40:16 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:40:16 INFO  time: compiled scala_game_bd2c96d2de in 0.34s
+2024.02.07 11:40:21 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:40:21 INFO  time: compiled scala_game_bd2c96d2de in 0.25s
+2024.02.07 11:41:22 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:41:22 INFO  time: compiled scala_game_bd2c96d2de in 0.33s
+2024.02.07 11:44:42 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:44:42 INFO  time: compiled scala_game_bd2c96d2de in 0.45s
+2024.02.07 11:52:01 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:52:01 INFO  time: compiled scala_game_bd2c96d2de in 0.43s
+févr. 07, 2024 11:53:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3807
+févr. 07, 2024 11:54:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3819
+2024.02.07 11:54:40 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 11:54:40 INFO  time: compiled scala_game_bd2c96d2de in 0.36s
+2024.02.07 12:01:20 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:01:20 INFO  time: compiled scala_game_bd2c96d2de in 0.53s
+2024.02.07 12:01:36 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:01:36 INFO  time: compiled scala_game_bd2c96d2de in 0.49s
+2024.02.07 12:02:12 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:02:14 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:02:16 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:02:16 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:02:17 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:04:39 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:04:51 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:04:52 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:04:52 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:04:52 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:06:38 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:06:40 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:06:40 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:06:40 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:06:55 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:07:00 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:07:00 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:07:00 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+Exception in thread "pool-13-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024.02.07 12:08:41 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:08:46 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:08:48 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:08:49 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:08:56 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:08:57 WARN  no build target for: /Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:08:57 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:08:57 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:26:57 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:26:57 INFO  time: compiled scala_game_bd2c96d2de in 0.69s
+2024.02.07 12:27:21 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:27:21 INFO  time: compiled scala_game_bd2c96d2de in 0.68s
+2024.02.07 12:28:06 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:28:06 INFO  time: compiled scala_game_bd2c96d2de in 0.58s
+2024.02.07 12:29:37 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:29:37 INFO  time: compiled scala_game_bd2c96d2de in 0.68s
+2024.02.07 12:30:22 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/build.sbt
+2024.02.07 12:32:11 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:32:11 INFO  time: compiled scala_game_bd2c96d2de in 0.67s
+2024.02.07 12:32:28 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:32:28 INFO  time: compiled scala_game_bd2c96d2de in 0.36s
+2024.02.07 12:33:16 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:33:16 INFO  time: compiled scala_game_bd2c96d2de in 0.31s
+2024.02.07 12:33:55 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:33:55 INFO  time: compiled scala_game_bd2c96d2de in 0.31s
+2024.02.07 12:35:01 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:35:01 INFO  time: compiled scala_game_bd2c96d2de in 0.35s
+2024.02.07 12:37:05 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:37:05 INFO  time: compiled scala_game_bd2c96d2de in 0.63s
+2024.02.07 12:43:04 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 12:43:04 INFO  time: compiled scala_game_bd2c96d2de in 0.55s
+2024.02.07 13:50:46 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 13:50:47 INFO  time: compiled scala_game_bd2c96d2de in 0.98s
+2024.02.07 13:55:48 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 13:55:48 INFO  time: compiled scala_game_bd2c96d2de in 0.54s
+2024.02.07 13:56:22 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 13:56:22 INFO  time: compiled scala_game_bd2c96d2de in 0.54s
+2024.02.07 14:01:31 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 14:01:31 INFO  time: compiled scala_game_bd2c96d2de in 0.51s
+2024.02.07 14:02:09 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 14:02:09 INFO  time: compiled scala_game_bd2c96d2de in 0.49s
+2024.02.07 14:02:13 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 14:02:13 INFO  time: compiled scala_game_bd2c96d2de in 0.33s
+févr. 07, 2024 2:03:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4818
+2024.02.07 14:03:42 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 14:03:42 INFO  Deduplicating compilation of scala_game_bd2c96d2de from bsp client 'scala-cli 1.1.0' (since 4h 7m 0.605s)
+2024.02.07 14:03:42 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.07 14:03:42 INFO  time: compiled scala_game_bd2c96d2de in 0.1s
+févr. 08, 2024 12:49:10 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /Users/chajjar/Documents/scala_game/.metals/.reports/metals-full/2024-02-08/r_compiler-error_(scala_game_bd2c96d2de)_00-49-10-637.md
+2024.02.08 00:50:26 ERROR Failed to tokenize input for semantic tokens for /Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+scala.meta.tokenizers.TokenizeException: <input>:60: error: Invalid literal number
+    if (8is) 
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2024.02.08 00:54:38 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.08 00:54:39 INFO  time: compiled scala_game_bd2c96d2de in 1.11s
+2024.02.08 01:12:20 INFO  compiling scala_game_bd2c96d2de (1 scala source)
+2024.02.08 01:12:20 INFO  time: compiled scala_game_bd2c96d2de in 0.72s
+2024.02.08 01:16:55 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/util/Maze.scala
+2024.02.08 01:17:21 WARN  no build target for: /Users/chajjar/Documents/scala_game/src/main/scala/util/MazeUtils.scala
+2024.02.08 01:17:22 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:17:24 INFO  time: indexed workspace in 2.43s
+2024.02.08 01:17:27 INFO  no build target found for /Users/chajjar/Documents/scala_game/src/main/scala/util/MazeUtils.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.08 01:17:27 INFO  time: compiled scala_game_bd2c96d2de in 4.97s
+2024.02.08 01:17:27 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:17:27 INFO  time: compiled scala_game_bd2c96d2de in 15ms
+2024.02.08 01:17:27 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:17:27 INFO  time: compiled scala_game_bd2c96d2de in 8ms
+févr. 08, 2024 1:18:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5948
+2024.02.08 01:18:02 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:18:02 INFO  time: compiled scala_game_bd2c96d2de in 0.48s
+2024.02.08 01:18:02 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:18:03 INFO  time: compiled scala_game_bd2c96d2de in 0.38s
+2024.02.08 01:18:05 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:18:05 INFO  time: compiled scala_game_bd2c96d2de in 0.37s
+2024.02.08 01:18:50 WARN  Using indexes to guess the definition of playerPosition
+2024.02.08 01:18:50 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:18:50 INFO  time: compiled scala_game_bd2c96d2de in 0.45s
+2024.02.08 01:20:39 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:20:39 INFO  time: compiled scala_game_bd2c96d2de in 0.72s
+2024.02.08 01:25:36 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:25:36 INFO  time: compiled scala_game_bd2c96d2de in 0.67s
+2024.02.08 01:26:42 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 01:26:42 INFO  time: compiled scala_game_bd2c96d2de in 0.48s
+2024.02.08 06:31:43 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 06:31:44 INFO  time: compiled scala_game_bd2c96d2de in 1.3s
