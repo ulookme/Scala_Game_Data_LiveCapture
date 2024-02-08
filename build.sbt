@@ -6,4 +6,5 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "3.2.0",
   "org.apache.spark" %% "spark-sql" % "3.2.0"
 )
+libraryDependencies += "org.jline" % "jline" % "3.20.0"
 resolvers += "Maven Central" at "https://repo1.maven.org/maven2"
