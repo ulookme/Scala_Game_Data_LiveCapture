@@ -835,3 +835,28 @@ AVERTISSEMENT: Unmatched cancel notification for request id 8405
 2024.02.08 10:03:31 INFO  time: compiled scala_game_bd2c96d2de in 0.79s
 févr. 08, 2024 10:09:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 AVERTISSEMENT: Unmatched cancel notification for request id 8801
+2024.02.08 10:37:00 INFO  time: code lens generation in 1.12s
+2024.02.08 10:38:09 INFO  file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala:3:8: stale bloop error: value apache is not a member of org
+import org.apache.spark.sql.{DataFrame, SparkSession}
+       ^^^^^^^^^^
+2024.02.08 10:38:09 INFO  file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala:4:8: stale bloop error: value apache is not a member of org
+import org.apache.spark.sql.functions._
+       ^^^^^^^^^^
+2024.02.08 10:38:09 INFO  file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala:36:25: stale bloop error: TerminalMazeGame.spark.implicits.Array does not take type parameters
+  def placeReward(maze: Array[Array[Int]]): (Int, Int) = {
+                        ^^^^^^^^^^^^^^^^^
+2024.02.08 10:38:09 INFO  file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala:100:10: stale bloop error: Recursive value $2$ needs type
+    val (newX, newY) = MazeUtils.getEnemyMoveTowardsPlayer(enemyPosition, playerPosition, maze)
+         ^
+2024.02.08 10:38:09 INFO  file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala:100:16: stale bloop error: Recursive value $2$ needs type
+    val (newX, newY) = MazeUtils.getEnemyMoveTowardsPlayer(enemyPosition, playerPosition, maze)
+               ^
+2024.02.08 10:38:10 WARN  Could not find semantic tokens for: file:///Users/chajjar/Documents/scala_game/src/main/scala/game/Game.scala
+2024.02.08 10:38:15 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 10:38:17 INFO  time: compiled scala_game_bd2c96d2de in 1.33s
+2024.02.08 10:38:48 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 10:38:48 INFO  time: compiled scala_game_bd2c96d2de in 0.99s
+2024.02.08 10:40:24 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 10:40:24 INFO  time: compiled scala_game_bd2c96d2de in 0.76s
+2024.02.08 10:45:46 INFO  compiling scala_game_bd2c96d2de (3 scala sources)
+2024.02.08 10:45:46 INFO  time: compiled scala_game_bd2c96d2de in 0.56s

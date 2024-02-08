@@ -25,7 +25,7 @@ object TerminalMazeGame extends App {
     Array(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1),
     Array(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1),
     Array(1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1),
-    Array(1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1),
+    Array(1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1),
     Array(1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1),
     Array(1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1),
     Array(1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1),
@@ -114,18 +114,18 @@ object TerminalMazeGame extends App {
         movePlayer(input.head)
         moveEnemyTowardsPlayer()
 
+        println(s"Debug: Player Position: $playerPosition, Reward Position: $rewardPosition") // Debug print
+
         if (playerPosition == enemyPosition) {
           println("Caught by the enemy! Game Over.")
           return
-        }  else if (playerPosition == rewardPosition) {
-           println("You found the reward! You win!")
-           return // Ou mettre input = "exit" pour sortir proprement de la boucle
-  }
-
+        } else if (playerPosition == rewardPosition) {
+          println("You found the reward! You win!")
+          return // Or set input = "exit" to exit the loop gracefully
+        }
       }
     }
   }
-
   gameLoop()
 
   // Création d'un DataFrame à partir de la liste des mouvements
