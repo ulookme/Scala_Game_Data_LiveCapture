@@ -33,17 +33,23 @@ object TerminalMazeGame extends App {
     Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
     )
   // Structure pour stocker les mouvements du joueur
+  // Structure pour stocker les mouvements du joueur
   case class Move(x: Int, y: Int, hitWall: Int)
   val playerMoves = ListBuffer[Move]()
-  var playerPosition = (1, 1) // Position initiale du joueur (ligne, colonne)
+  var playerPosition = (1, 1) // Position initiale du joueur
+  var enemyPosition = (maze.length - 2, maze(0).length - 2) // Position initiale de l'ennemi à l'opposé
 
   def printMaze(): Unit = {
     for (i <- maze.indices) {
       for (j <- maze(i).indices) {
-        if ((i, j) == playerPosition) print("P")
-        else print(if (maze(i)(j) == 1) "#" else " ")
+        print((i, j) match {
+          case pos if pos == playerPosition => "P"
+          case pos if pos == enemyPosition => "E"
+          case _ if maze(i)(j) == 1 => "#"
+          case _ => " "
+        })
       }
-      println()
+      println() // Assurez-vous de passer à une nouvelle ligne après chaque ligne du labyrinthe.
     }
   }
 
@@ -69,31 +75,38 @@ object TerminalMazeGame extends App {
         MazeUtils.modifyMazeAtRandom(maze, playerPosition._1, playerPosition._2, playerMoves.length)
     }
   }
-  // Jeu principal
-  var input: String = ""
-  while (input != "exit") {
-    print("\u001b[2J") // Nettoyer la console
-    printMaze()
-    println("Move (w/a/s/d) or 'exit' to quit:")
-    input = readLine.trim
-    if (input.length == 1) movePlayer(input.head)
+  // Nouvelle fonction pour déplacer l'ennemi
+  def moveEnemyTowardsPlayer(): Unit = {
+    val (newX, newY) = MazeUtils.getEnemyMoveTowardsPlayer(enemyPosition, playerPosition, maze)
+    if (maze(newX)(newY) == 0) { // S'assurer que la nouvelle position est libre
+      enemyPosition = (newX, newY)
+    }
   }
-  // Afficher les mouvements du joueur
-  println("Player Moves:")
-  for ((index, move) <- playerMoves.zipWithIndex) {
-    println(s"Move $index: $move")
+
+  def gameLoop(): Unit = {
+    var input = ""
+    while (input != "exit" && playerPosition != enemyPosition) {
+      printMaze()
+      println("Move (w/a/s/d) or 'exit' to quit:")
+      input = readLine.trim
+
+      if (input.nonEmpty && input.length == 1) {
+        movePlayer(input.head)
+        moveEnemyTowardsPlayer()
+
+        if (playerPosition == enemyPosition) {
+          println("Caught by the enemy! Game Over.")
+          return
+        }
+      }
+    }
   }
-  //mainLoop()
+
+  gameLoop()
 
   // Création d'un DataFrame à partir de la liste des mouvements
   val movesDF = playerMoves.toDF()
-
-  // Affichage du DataFrame
   movesDF.show()
 
-  // Exemple d'opération Spark SQL sur le DataFrame
-  movesDF.filter($"hitWall" === 1).show() // Afficher les mouvements qui ont heurté un mur
-
-  // Arrêt de la session Spark
   spark.stop()
 }

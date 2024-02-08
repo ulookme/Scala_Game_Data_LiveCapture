@@ -1,3 +1,4 @@
+// MazeUtils.scala
 package util
 
 import scala.util.Random
@@ -22,5 +23,24 @@ object MazeUtils {
   def calculateProbability(steps: Int): Double = {
     // Exemple: plus le joueur a fait de pas, plus la probabilité est élevée
     Math.min(1.0, steps / 1000.0) // Assurez-vous que la probabilité ne dépasse pas 1
+  }
+
+  // Calcul du mouvement de l'ennemi vers le joueur
+  def getEnemyMoveTowardsPlayer(enemyPosition: (Int, Int), playerPosition: (Int, Int), maze: Array[Array[Int]]): (Int, Int) = {
+    val directions = Seq((-1, 0), (1, 0), (0, -1), (0, 1)) // Haut, Bas, Gauche, Droite
+    val validMoves = directions.map { case (dx, dy) =>
+      (enemyPosition._1 + dx, enemyPosition._2 + dy)
+    }.filter { case (newX, newY) =>
+      newX >= 0 && newX < maze.length && newY >= 0 && newY < maze(0).length && maze(newX)(newY) == 0
+    }
+
+    if (validMoves.isEmpty) {
+      enemyPosition // Aucun mouvement possible
+    } else {
+      // Choisissez le mouvement qui rapproche le plus l'ennemi du joueur en utilisant la distance Manhattan comme heuristique
+      validMoves.minBy { case (newX, newY) =>
+        Math.abs(newX - playerPosition._1) + Math.abs(newY - playerPosition._2)
+      }
+    }
   }
 }
